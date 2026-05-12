@@ -1,0 +1,11 @@
+<resources>
+    <color name="bg_dark">#101217</color>
+    <color name="surface_dark">#1D2028</color>
+    <color name="surface_soft">#292D37</color>
+    <color name="primary_blue">#5B9DFF</color>
+    <color name="text_primary">#F4F6FA</color>
+    <color name="text_secondary">#B6BAC5</color>
+    <color name="stock_good">#36C275</color>
+    <color name="stock_low">#F6C34A</color>
+    <color name="stock_empty">#F25F5C</color>
+</resources>
