@@ -98,15 +98,3 @@ com.github.PhilJay:MPAndroidChart
 
 MPAndroidChart is downloaded from JitPack, so the first Gradle Sync needs internet access.
 
-## Notes For Viva
-
-- The app is offline-first. All data is stored in Room database on the device.
-- `ShopRepository` contains the business logic.
-- `saveSale()` inserts the transaction and decreases stock inside a Room transaction.
-- `deleteSaleAndRestoreStock()` deletes a sale and restores the sold quantity.
-- Fragments only observe ViewModels and render UI.
-- No Firebase, login, backend, cloud sync, payments, or ecommerce behavior is used.
-
-## Build Note
-
-This code was written as a standard Android Studio project. It has not been compiled in this environment because the Android SDK is not available here.
